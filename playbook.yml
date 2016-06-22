@@ -1,0 +1,14 @@
+---
+- name: Example playbook
+  hosts: all
+  vars:
+    foo: bar
+
+  tasks:
+    - name: ensure servers are reachable
+      ping: 
+
+    - name: ensure servers are updated
+      apt:
+        update_cache: yes
+        upgrade: dist

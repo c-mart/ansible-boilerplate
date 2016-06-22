@@ -1,0 +1,5 @@
+my-server.example.com
+
+[dbservers]
+db1.example.com
+db2.example.com
